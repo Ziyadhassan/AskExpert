@@ -1,20 +1,21 @@
-import 'package:ask_expert/Screens/SplashScreen.dart';
+import 'package:ask_expert/Routes/routes.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({final Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
+  Widget build(final BuildContext context) {
+    return  GetMaterialApp(
       title: 'Ask Expert',
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      initialRoute: AppRoutes.splashScreen,
+      getPages: AppRoutes.routesList,
     );
   }
 }
