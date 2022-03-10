@@ -59,7 +59,7 @@ class PersonData extends StatelessWidget {
                   const SizedBox(width: 10,),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
+                    children: <Widget>[
                       Text(
                         name,
                         style: GoogleFonts.roboto(

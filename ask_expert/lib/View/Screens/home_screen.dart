@@ -3,7 +3,6 @@ import 'package:ask_expert/Logic/Controllers/home_controller.dart';
 import 'package:ask_expert/View/Widgets/Home%20Widgets/person_data_horizantal.dart';
 import 'package:ask_expert/View/Widgets/Home%20Widgets/recent_expert_clip.dart';
 import 'package:ask_expert/View/Widgets/Home%20Widgets/search_box.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
