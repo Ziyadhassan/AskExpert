@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(final BuildContext context) {
-    return  GetMaterialApp(
+    return GetMaterialApp(
       title: 'Ask Expert',
       debugShowCheckedModeBanner: false,
       initialRoute: AppRoutes.splashScreen,

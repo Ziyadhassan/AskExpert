@@ -1,6 +1,6 @@
 import 'package:ask_expert/Logic/Binding/home_controller_binding.dart';
-import 'package:ask_expert/Screens/home_screen.dart';
-import 'package:ask_expert/Screens/splash_screen.dart';
+import 'package:ask_expert/View/Screens/home_screen.dart';
+import 'package:ask_expert/View/Screens/splash_screen.dart';
 import 'package:get/get.dart';
 
 class AppRoutes {
